@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+.next
+.out
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.sample
+.pytest_cache/
+.mypy_cache/
+
+# Editor
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.log
